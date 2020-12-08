@@ -25,9 +25,9 @@ public class SafetyNetAlertsApplication {
     }
 
     /**
-     * Read json data
+     * Read JSON Data
      *
-     * @return entitiesInfosStorage
+     * @return AllInformations data
      * @throws IOException exception
      */
     @Bean
