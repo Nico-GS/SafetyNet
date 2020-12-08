@@ -24,8 +24,9 @@ import java.util.regex.Pattern;
 public class PersonService implements IPersonService {
 
     private static final Logger logger = LogManager.getLogger(PersonService.class);
+
     /**
-     * Retrieve persons informations from AllInformations
+     * Retrieve Persons informations from AllInformations
      */
     @Autowired
     private AllInformations allInformations;
