@@ -61,6 +61,29 @@ http://localhost:8080/fire?address={address}
 Return list of habitants covered FireStation number : Name - Phone - Age - MedicalRecord
 
 
-<h2>ADD / PUT / DELETE</h2>
+<h2>POST / PUT / DELETE</h2>
 
-Need a JSON Body
+
+<h3>JSON Body for /person</h3>
+
+<code>
+{ "firstName":"Marcel", 
+"lastName":"Denis", 
+"address":"1509 Culver St", 
+"city":"Culver", "zip":"97451", 
+"phone":"0642876413", 
+"email":"nicolas@email.com" }
+</code>
+
+<h3>JSON Body for /firestation</h3>
+
+<code>
+{ "address":"Rue de la Paix", "station":"2" }
+</code>
+
+<h3>JSON Body for /medicalRecord</h3>
+
+<code>
+{ "firstName":"John", "lastName":"Boyd", "birthdate":"03/03/1993", "medications":["aznol:350mg", "hydrapermazol:100mg"], "allergies":["nillacilan"] }</code>
+
+
